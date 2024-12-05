@@ -1,6 +1,6 @@
 python main.py \
-    --image_dir /kaggle/input/iu-xray/iu_xray/images \
-    --ann_path /kaggle/input/iu-xray/iu_xray/imagesannotation.json \
+    --image_dir /kaggle/working/R2GENCMN/data/iu_xray/images \
+    --ann_path /kaggle/working/R2GENCMN/data/iu_xray/annotation.json \
     --dataset_name iu_xray \
     --max_seq_length 60 \
     --threshold 3 \
@@ -16,5 +16,5 @@ python main.py \
     --cmm_dim 512 \
     --seed 7580 \
     --beam_size 3 \
-    --save_dir results/iu_xray/ \
+    --save_dir /kaggle/working/R2GENCMN/results/iu_xray/ \
     --log_period 50
